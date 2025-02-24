@@ -1,5 +1,5 @@
 # Rime-Esperanto
-基于Rime的世界语输入法
+基于Rime的世界语输入法。请至 [https://rime.im](Rime 官网）获取 Rime。
 
 ## 如何安装
  - Windows 小狼毫：将此文件拖入安装时指定的「用户文件夹」，。
