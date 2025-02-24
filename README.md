@@ -1,4 +1,4 @@
-# Esperanto_on_Rime
+# Rime-Esperanto
 基于Rime的世界语输入法
 
 ## 如何安装
