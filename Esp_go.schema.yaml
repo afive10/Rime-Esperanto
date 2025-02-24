@@ -1,0 +1,45 @@
+schema:
+  schema_id: esp_go
+  name: "Esp Go"
+  version: "1.1.1"
+  author: "Marticlex<cafe@merox.im>"
+  description: "世界语(Esperanto)输入法。"
+
+engine:
+  processors:
+    - punctuator
+    - selector
+    - express_editor
+  segmentors:
+    - punct_segmentor
+  translators:
+    - punct_translator
+menu:
+  page_size: 9
+  
+punctuator:
+  half_shape:
+    "`": {commit: "q"}
+    "~": {commit: "Q"}
+    "$": {commit: "+"}
+    "^": ["★", "^", "`", "{}", "[]", "|", "\\"]
+    "+": ["X", "+", "=", "÷", "<", "^", ">", "~"]
+    "=": {commit: "x"}
+    "Q": {commit: "Ŝ"}
+    "q": {commit: "ŝ"}
+    "W": {commit: "Ĝ"}  
+    "w": {commit: "ĝ"}
+    "Y": {commit: "Ŭ"}
+    "y": {commit: "ŭ"}
+    "{": {commit: "Ĥ"}
+    "[": {commit: "ĥ"}
+    "}": {commit: "Y"}
+    "]": {commit: "y"}
+    "|": ["W", "$", "¢", "£", "€", "¥"]
+    "\\": {commit: "w"}
+    ":": {commit: "Ĵ"}
+    ";": {commit: "ĵ"}
+    "X": {commit: "Ĉ"}
+    "x": {commit: "ĉ"}
+    "<": {commit: ";"}
+    ">": {commit: ":"}
