@@ -1,9 +1,9 @@
 schema:
   schema_id: esp_go
-  name: "Esp Go"
-  version: "1.1.1"
+  name: "EspGo"
+  version: "1.1.3"
   author: "Marticlex<cafe@merox.im>"
-  description: "世界语(Esperanto)输入法。"
+  description: "世界语(Esperanto)输入法。基于 Rime。"
 
 engine:
   processors:
@@ -16,30 +16,42 @@ engine:
     - punct_translator
 menu:
   page_size: 9
+  alternative_select_keys: ",./"
   
 punctuator:
   half_shape:
-    "`": {commit: "q"}
-    "~": {commit: "Q"}
     "$": {commit: "+"}
-    "^": ["★", "^", "`", "{}", "[]", "|", "\\"]
-    "+": ["X", "+", "=", "÷", "<", "^", ">", "~"]
-    "=": {commit: "x"}
-    "Q": {commit: "Ŝ"}
-    "q": {commit: "ŝ"}
-    "W": {commit: "Ĝ"}  
-    "w": {commit: "ĝ"}
-    "Y": {commit: "Ŭ"}
-    "y": {commit: "ŭ"}
-    "{": {commit: "Ĥ"}
-    "[": {commit: "ĥ"}
-    "}": {commit: "Y"}
-    "]": {commit: "y"}
-    "|": ["W", "$", "¢", "£", "€", "¥"]
-    "\\": {commit: "w"}
+    "%": ["%", "$"]
+    "&": ["&", "["]
+    "*": ["*", "|"]
+    "(": ["(", "]"]
+    ")": [")", "}"]
+    "_": ["_", "~"]
+    "+": [X, "="]
     ":": {commit: "Ĵ"}
     ";": {commit: "ĵ"}
-    "X": {commit: "Ĉ"}
-    "x": {commit: "ĉ"}
     "<": {commit: ";"}
-    ">": {commit: ":"}
+    "=": {commit: x}
+    ">": [":", "·"]
+    Q: {commit: "Ŝ"}
+    W: {commit: "Ĝ"}
+    X: {commit: "Ĉ"}
+    Y: {commit: "Ŭ"}
+    P: [P, "π"]
+    M: [M, "µ"]
+    "?": ["?", "÷"]
+    "[": {commit: "ĥ"}
+    "\\": {commit: w}
+    "]": {commit: y}
+    "^": ["★", "{"]
+    "`": {commit: q}
+    q: {commit: "ŝ"}
+    w: {commit: "ĝ"}
+    x: {commit: "ĉ"}
+    y: {commit: "ŭ"}
+    "{": ["Ĥ", "^"]
+    "|": [W, "\\"]
+    "}": [Y, "¥"]
+    "~": ["Q", ">", "<"]
+    F: [F, "£"]
+    C: [C, "€"]
