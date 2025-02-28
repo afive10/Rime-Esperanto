@@ -9,7 +9,6 @@
 
 ## 键盘布局
 ![img](https://omoi.fun/usr/uploads/2025/02/3089009864.jpg "Keyboard Layout")    
-其中 `⇧X` 用于输入未在键盘上出现的数学符号，`⇧W` 用于货币符号，`⇧6`用于括号和其他符号。
 
 ## 有问题？
 请 issue 出来。
