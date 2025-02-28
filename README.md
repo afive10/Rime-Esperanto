@@ -8,7 +8,7 @@
  - Linux 中州韵：手头Ubuntu在家，没带过来，忘了。
 
 ## 键盘布局
-![img](https://omoi.fun/usr/uploads/2025/02/3089009864.jpg "Keyboard Layout")    
+![img](https://omoi.fun/usr/uploads/2024/10/3808570783.jpg "Keyboard Layout")    
 
 ## 有问题？
 请 issue 出来。
